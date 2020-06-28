@@ -7,12 +7,14 @@ import HeroSection from "../components/resuable/HeroSection"
 import { graphql } from 'gatsby'
 import DualInfoblock from "../components/resuable/DualInfoblock"
 import Infoblock from "../components/resuable/Infoblock"
+import ContactForm from "../components/contact/ContactForm"
 
 const ConatctPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     <HeroSection image={data.img.childImageSharp.fluid} title={`This is the title`} subtitle={`this is the subtitle`} heroStyleClass={`about-background`}/>
     <Infoblock heading="Contact us"/>
+    <ContactForm/>
   </Layout>
 )
 
