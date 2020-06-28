@@ -26,7 +26,7 @@ export default function CartCourses(props) {
                                         data-item-id={course.node.id}
                                         data-item-name={course.node.title}
                                         data-item-price={course.node.price}
-                                        data-item-url="http://myapp.com/products/bacon"
+                                        data-item-url="https://rgnecommerce.netlify.app"
                                         data-item-description={course.node.description}
                                         data-item-image={course.node.image.fixed.src}
                                     >
