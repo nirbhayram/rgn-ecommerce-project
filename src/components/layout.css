@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif;
+}
+.bg-theme {
+  background-color: #1287a5;
+}
+.cart-class{
+  font-size: 1.5rem;
+}
+.hero-background{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-background{
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
