@@ -1,9 +1,10 @@
 import React from 'react'
 import Heading from "./Heading"
+import image from "../../images/about.png"
 
 export default function DualInfoblock({ heading }) {
     return (
-        <section className="my-2 mx-2 py-4 bg-theme">
+        <section className="py-4 bg-theme">
             <div className="container">
                 <Heading title={heading} />
                 <div className="row">
@@ -44,7 +45,7 @@ export default function DualInfoblock({ heading }) {
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="https://images.pexels.com/photos/3961066/pexels-photo-3961066.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className="card-img-top" />
+                            <img src="https://images.pexels.com/photos/3961066/pexels-photo-3961066.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className="card-img-top" alt={image}/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
