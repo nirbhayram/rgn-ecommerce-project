@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/resuable/HeroSection"
 import { graphql } from 'gatsby'
-import DualInfoblock from "../components/resuable/DualInfoblock"
 import Infoblock from "../components/resuable/Infoblock"
 import ContactForm from "../components/contact/ContactForm"
 

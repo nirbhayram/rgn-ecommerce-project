@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Heading from "../resuable/Heading"
+import image from "../../images/about.png"
 
 export default function CartCourses(props) {
     const [courses, setCourses] = useState([])
@@ -17,7 +18,7 @@ export default function CartCourses(props) {
                     {courses.map((course) => (
                         <div className="col-3 my-1" key={course.node.id}>
                             <div className="card" >
-                                <img src={course.node.image.fixed.src} className="card-img-top" />
+                                <img src={course.node.image.fixed.src} className="card-img-top" alt={image}/>
                                 <div className="card-body">
                                     <h5 className="card-title">{course.node.title}</h5>
                                     <p className="card-text">{course.node.description}</p>
